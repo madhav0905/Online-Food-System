@@ -1,0 +1,199 @@
+#main
+{
+    background-image: url("images/b1.png");
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+}
+#head1
+{
+    text-align: center;
+    color:rgb(126, 34, 34);
+    font-family: 'Open Sans';
+    font-size: 2rem;
+    padding: 0%;
+    margin-top: 1%;
+   
+ 
+   
+
+}
+#loginbox
+{
+    box-sizing: border-box;
+    background-color:white;
+ 
+    width:30vw;
+    height:50vh;
+    margin-left: 37%;
+    border: 2px solid red;
+    padding: 3%;
+    padding-top:5%;
+    margin-top: 10%;
+
+}
+#h11
+{
+    margin-top: 10%;
+    text-align: center;
+   margin-right: 13%;
+    color: brown;
+}
+#create
+{
+    box-sizing: border-box;
+    background-color:white;
+    width:30vw;
+    height:75vh;
+    margin-left: 37%;
+    border: 2px solid red;
+padding-left: 4%;
+margin-top: 4%;
+    
+
+    
+}
+body{
+    margin: 0%;
+}
+label{
+    padding: 2%;
+    color: brown;
+    font-size: large;
+    font-family: 'Open Sans';
+
+}
+input
+{
+box-sizing:unset;
+padding: 2%;
+border: none;
+border-bottom: 2px solid black;
+
+width: 12vw;
+}
+#button
+{ 
+
+   margin-top: 10%;
+    padding: 2%;
+      background-color:#0F52BA;
+    color: white;
+      border-radius: 16px;
+      width: 22%;
+
+
+}
+#sign
+{
+    margin-top: 1%;
+    padding: 2%;
+      background-color:#0F52BA;
+    color: white;
+      border-radius: 16px;
+      width: 22%;
+      margin-left: 25%;
+
+}
+
+a
+{
+   text-decoration: none;
+   color: tomato;
+   font-family: 'Open Sans';
+   font-weight: bold;
+    font-size: large;
+
+}
+a:hover
+{
+    color: teal;
+}
+p{
+    font-family: 'Open Sans';
+    font-size: large;
+}
+#avatar{
+    margin-top: 18%;
+    margin-left: 2%;
+width:100px;
+height:100px;
+border-radius:100%;
+border: 1px;
+position:absolute;
+top:-50px;
+left:calc(50% - 50px);
+border-color: blue;
+}
+#box
+{
+    margin-top: 0%;
+    display: inline-block;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(233, 151, 0);
+}
+#logo
+{
+    height:15vh;
+    position: fixed;
+    image-rendering: pixelated;
+    width: 10vw;
+}
+#head2
+{
+    margin-top: -1%;
+    text-align: center;
+    color:rgb(126, 34, 34);
+    font-family: Garamond, serif;;
+
+    padding: 0%;
+
+}
+
+@media only screen and (max-width: 760px) {
+  #loginbox
+  {
+    box-sizing: border-box;
+    background-color:white;
+
+    width: 60vw;;
+    height:45vh;
+    margin-left: 20%;
+    border: 2px solid red;
+    padding: 3%;
+    padding-top:10%;
+    margin-top: 30%;
+
+  }
+  #avatar
+  {
+      margin-top:50%;
+      margin-left:2%
+  }
+  input
+  {
+    width:18vw;
+  }
+  #logo
+  {
+   width: 20vw;
+  }
+  #create
+  {
+    box-sizing: border-box;
+    background-color:white;
+
+    width: 60vw;;
+    height:65vh;
+    margin-left: 25%;
+    border: 2px solid red;
+    padding-left: 3%;
+  
+    margin-top: 20%;
+  }
+}

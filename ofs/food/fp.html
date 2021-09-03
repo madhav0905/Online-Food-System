@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+      <meta charset="utf-8">
+ <title>User Login</title>
+     <link rel=stylesheet href=details.css>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+     
+     <script src="jquery.js"></script>
+ </head>
+ <body>
+         <div id="box">
+                 <img id=logo src="images/3.png">
+             <h1 id=head1>Welcome to HMKV</h1>
+             <h2 id=head2>Feel the taste of food</h2>
+            
+         </div>
+         <div style="
+         
+             box-sizing: border-box;
+             background-color:bisque;
+          
+             width:30vw;
+             height:50vh;
+             margin-left: 37%;
+             border: 2px solid red;
+             padding: 3%;
+             padding-top:5%;
+             margin-top: 10%;
+         
+         ">
+         <form id="ft" action="test.php" method="POST">
+
+                <label for="user">Enter your username:</label>&nbsp;
+                <input type="text" name="user" required placeholder="Username" minlength="5" ><br> 
+                <br>
+                <input id="sign" type="submit"  value="Submit">
+
+
+
+
+
+         </form>
+        
+         </div>
+         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+         <script >
+         
+         document.querySelector('#ft').addEventListener('submit', function(e) {
+                var form = this;
+                
+                e.preventDefault();
+            
+            
+                swal({
+                  title: 'Password Sent!',
+                  text:'Please check your Email',  
+                  icon: 'success'
+                    
+                  
+                  }).then(function() {
+                        form.submit();
+                      });
+                    
+                  });</script>
+         </body>
+ </html>
